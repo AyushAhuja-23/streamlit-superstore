@@ -1,0 +1,17 @@
+# Python virtual environment
+venv/
+*.venv/
+/venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Data files - Do not upload raw data to GitHub
+data/
+*.csv
+*.xlsx
+
+# Streamlit secrets
+.streamlit/secrets.toml
