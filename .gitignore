@@ -1,17 +1,7 @@
-# Python virtual environment
-venv/
-*.venv/
-/venv/
-.venv/
-
-# Python cache files
-__pycache__/
-*.pyc
-
-# Data files - Do not upload raw data to GitHub
-data/
+# Data files - We are allowing the data/ folder for Streamlit Cloud
+# data/ 
 *.csv
 *.xlsx
 
-# Streamlit secrets
-.streamlit/secrets.toml
+# But specifically un-ignore the one file we need
+!data/Superstore.csv
